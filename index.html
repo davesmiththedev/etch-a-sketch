@@ -2,10 +2,36 @@
 <html>
 	<head>
 		<title>Etch-A-Sketch</title>
-		<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="text" title="stylesheet">
-		<script type="text/javascript" src="js/javascript.js"></script>
+		<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<div class="container">			
+			<div class="wrapper">				
+				<div id="controls">	
+					<h1>Grid Controls</h1>
+					Grid Size:<br>						
+					<input name="gridSize" id="gridSize" type="number" value= "16"><br>
+					Choose Brush Color:					
+					<select name="brushColor" id="brushColor">
+						<option value="blue" label="blue">blue</option>
+						<option value="black" label="black">black</option>
+						<option value="red" label="red">red</option>
+						<option value="green" label="green">green</option>
+						<option value="yellow" label="yellow">yellow</option>
+						<option value="random" label="random" selected>random</option>
+					</select><br>					
+					Show Grid:
+					<input type="checkbox" name="showGrid" id="showGrid" checked><br>						
+					<button id="newGrid" onclick="newGrid()">Apply Settings</button>						
 		
-	</body>
+				</div>
+				<div id="sketchpad">
+				</div>
+			</div>			
+		</div>
+		
+		<script src="js/jquery.js"></script>	
+		<script src="js/etch-a-sketch.js"></script>		
+	</body>	
+	
 </html>

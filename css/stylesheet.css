@@ -1,0 +1,69 @@
+div{
+	border: 1px solid black;
+	background-color: white;
+	padding: 0px;
+	
+}
+
+input{
+	padding: 3px;
+	margin: 5px;
+}
+
+button{
+	font-size: large;
+	width: 200px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+h1{
+	font-size: large;
+}
+
+select{
+	width: 180px;
+	margin-top: 10px;
+	margin-left: 3px; 
+	padding: 3px;
+	background-color: white;
+}
+
+.container{
+	border: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.wrapper{
+	width: 1200px;
+	overflow: hidden;
+	border: none;
+}
+
+.square{
+	display: inline-block;
+	border-radius: 0px;
+}
+
+#controls{
+	height: 960px;
+	width: 200px;
+	padding: 2px;
+	float: left;
+	background-color: gold;
+	border-radius: 15px;
+}
+
+#sketchpad{
+	height: 960px;
+	width: 960px;
+	float: left;
+	border: none;
+	overflow: hidden;
+	font-size: 0;
+}
+
+#gridSize{
+	width: 170px;
+}
